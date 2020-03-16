@@ -1,4 +1,4 @@
-name: .NET Core
+name: Build
 
 on:
   push:
@@ -19,3 +19,8 @@ jobs:
         dotnet-version: 3.1.101
     - name: Build with dotnet
       run: dotnet build --configuration Release
+    - name: Archive artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: Mirror.dll
+          path: bin/Release/Mirror.dll
