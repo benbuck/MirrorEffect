@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorEffect", "MirrorEffect\MirrorEffect.csproj", "{865A3B6E-4A0D-4FC4-8636-B178B14CFD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{865A3B6E-4A0D-4FC4-8636-B178B14CFD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865A3B6E-4A0D-4FC4-8636-B178B14CFD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865A3B6E-4A0D-4FC4-8636-B178B14CFD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865A3B6E-4A0D-4FC4-8636-B178B14CFD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {b0d9fa86-1744-49ae-83af-f8c29ae99707}
+	EndGlobalSection
+EndGlobal
