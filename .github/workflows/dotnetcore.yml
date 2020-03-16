@@ -1,4 +1,4 @@
-name: Build
+name: .NET Core
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release
     - name: Archive artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: Mirror.dll
-          path: bin/Release/Mirror.dll
+      uses: actions/upload-artifact@v1
+      with:
+        name: Mirror.dll
+        path: bin/Release/Mirror.dll
